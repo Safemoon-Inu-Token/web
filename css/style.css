@@ -2185,6 +2185,18 @@ section {
   #title {
     display: none;
   }
+
+  #welcome-pic {
+    margin-top:100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #welcome-pic {
+    box-shadow: 0 0 4px 4px white inset;
+    rotate:5deg;
+    margin-left:100px;
+  }
 }
 
 #token {
