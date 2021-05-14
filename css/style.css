@@ -1682,9 +1682,6 @@ img + h2, img h4 {
     margin: 10px 3px;
   }
 }
-/** 07.0 - FEATURES SECTION */
-
-/** 08.0 - TOKEN SECTION */
 
 .event-single-info {
   margin-bottom: 30px;
@@ -1699,19 +1696,6 @@ img + h2, img h4 {
 .event-single-info p {
   color: #8284a5;
 }
-
-/** 09.0 - ROADMAP SECTION */
-
-/** 10.0 - TEAM SECTION */
-
-/** 11.0 - PARTNER SECTION */
-
-/** 12.0 - FAQ SECTION */
-
-/** 13.0 - CONTACT SECTION */
-
-
-/** 14.0 - FOOTER SECTION */
 
 .social li {
   display: inline-block;
@@ -2199,6 +2183,14 @@ section {
   }
 }
 
-#token {
+#token, #visibility, #exchanges {
   text-align:center;
+}
+
+#exchanges img {
+  width:33%;
+}
+
+hr {
+  color: #35383f;
 }
