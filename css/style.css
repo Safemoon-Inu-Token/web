@@ -780,7 +780,7 @@ section {
   }
 }
 
-#token, #visibility, #exchanges, #donation {
+#token, #visibility, #exchanges, #donation, #buy {
   text-align:center;
 }
 
@@ -848,4 +848,21 @@ hr {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#buy {
+  padding:50px;
+}
+
+#buy p {
+  margin:25px;
+  font-weight:bold;
+}
+
+#buy ul {
+  text-align:left;
+}
+
+#buy ul li {
+  list-style-type: disc;
 }
