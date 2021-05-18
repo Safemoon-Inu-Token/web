@@ -11,9 +11,13 @@ p, a, span, div, button, h1, h2, h4, h6 {
   color: #FFF;
 }
 
-section, footer {
+section{
   background-color: #1f222a!important;
   background-image: linear-gradient(#1f222a 0%, #1f222a 70%)!important;
+}
+
+footer {
+   background-color: #181b21!important;
 }
 
 #intro {
@@ -895,4 +899,25 @@ hr {
    padding-left: 10%;
    padding-right: 10%;
    text-align: justify;
+}
+
+footer .gridContainer {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-areas:
+      "visibility socials chats exchanges";
+   padding-bottom: 3em;
+}
+
+footer .gridCell {
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+@media only screen and (max-width: 767px) {
+
+   footer .gridCell {
+      margin-left: 10%;
+      margin-right: 0%;
+   }
 }
