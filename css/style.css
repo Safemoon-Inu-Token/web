@@ -915,9 +915,20 @@ footer .gridCell {
 }
 
 @media only screen and (max-width: 767px) {
-
    footer .gridCell {
       margin-left: 10%;
       margin-right: 0%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   footer .gridCell {
+      font-size: 0.9em;
+      margin-left: 10%;
+      margin-right: 0%;
+   }
+
+   .respHide {
+      display: none;
    }
 }
