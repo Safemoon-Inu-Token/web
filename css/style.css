@@ -139,7 +139,7 @@ ul + p, ul + ul {
   font-weight: 600;
 }
 
-a {
+a, .respHide {
   outline: 0;
   transition: all 0.5s;
 }
@@ -149,6 +149,11 @@ a:link, a:visited {
 }
 
 a:hover, a:focus, a:active {
+  outline: 0;
+  color: #16a3fe;
+}
+
+.respHide:hover, .respHide:focus, .respHide:active {
   outline: 0;
   color: #16a3fe;
 }
@@ -775,7 +780,7 @@ section {
     margin-top:100px;
   } */
 }
-/* 
+/*
 @media only screen and (min-width: 768px) {
   #welcome-pic {
     box-shadow: 0 0 4px 4px white inset;
@@ -783,6 +788,10 @@ section {
     margin-left:100px;
   }
 } */
+
+#welcome-text {
+  padding-top:40px;
+}
 
 #token, #visibility, #exchanges, #donation, #buy {
   text-align:center;
