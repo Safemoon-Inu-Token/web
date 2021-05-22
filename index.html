@@ -7,6 +7,7 @@
       <link rel='stylesheet' href='css/global.css' type='text/css' media='all' />
       <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
       <link rel='stylesheet' href='css/fontawesome.min.css' type='text/css' media='all' />
+      <link rel="stylesheet" href="css/animate.css" />
       <script type='text/javascript' src='js/jquery.min.js'></script>
       <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
       <link rel="canonical" href="index.html" />
@@ -21,8 +22,8 @@
                <nav class="container">
                   <div class="navbar-brand">
                      <a href="index.html">
-                     <img class="logo" src="img/logo-welcome.png">
-                     <img class="logo-2" src="img/logo-welcome.png">
+                     <img class="logo" src="img/logo-animated.gif">
+                     <img class="logo-2" src="img/logo-animated.gif">
                      </a>
                   </div>
                   <button class="navbar-toggler" type="button">
@@ -32,9 +33,10 @@
                   </button>
                   <div class="navbar-collapse justify-content-end">
                      <ul class="navbar-btns">
+                        <li class="nav-item"><a class="btn btn-warning" target="_blank" href="pdf/whitepaper.pdf">Whitepaper</a></li>
+                        <li class="nav-item"><a class="btn btn-warning" target="_blank" href="pdf/techrate.pdf">Audit</a></li>
                         <li class="nav-item"><a class="btn btn-alt" target="_blank" href="https://www.unicrypt.network/amm/uni/pair/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">UNICRYPT</a></li>
                         <li class="nav-item"><a class="btn btn-alt" target="_blank" href="https://etherscan.io/token/0xCd7492db29E2ab436e819b249452EE1bbDf52214">ETHERSCAN</a></li>
-                        <li class="nav-item"><a class="btn btn-alt" target="_blank" href="pdf/techrate.pdf">Audit</a></li>
                         <li class="nav-item"><a class="btn btn-alt" target="_blank" href="https://t.me/safemooninu">Telegram</a></li>
                      </ul>
                   </div>
@@ -42,40 +44,44 @@
             </div>
          </header>
 
-         <section class="banner banner-full d-flex align-items-center">
-            <div id="particles-js" class="particles-container particles-js"></div>
-            <div class="container">
-               <div class="banner-content">
-                  <div class="row">
-                     <div id="welcome-text">
-                        <h1 id="title">SafeMoon Inu</h1>
-                        <p class="lead color-secondary">
-                            <span class="r-18u37iz">
-                              SafeMoon Inu
-                            </span>
-                            <span class="css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0">
-                              is the first dog to ever explore the galaxy.
-                            </span>
-                        </p>
-                        <ul class="btns">
-                           <li><a class="btn btn-alt" target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">Live Chart</a></li>
-                           <li><a class="btn btn-alt" target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2">Buy on uniswap</a></li>
-                        </ul>
-                        <ul class="social">
-                           <li><a target="_blank" href="https://t.me/safemooninu"><i class="fab fa-telegram"></i></a></li>
-                           <li><a target="_blank" href="https://discord.com/invite/GYkRw3Sz"><i class="fab fa-discord"></i></a></li>
-                           <li><a target="_blank" href="https://www.reddit.com/r/safemooninu/"><i class="fab fa-reddit"></i></a></li>
-                           <li><a target="_blank" href="https://twitter.com/SafemoonInu"><i class="fab fa-twitter"></i></a></li>
-                           <li><a target="_blank" href="https://instagram.com/safemooninu/"><i class="fab fa-instagram"></i></a></li>
-                           <li><a target="_blank" href="https://medium.com/@SafeMoonInu"><i class="fab fa-medium"></i></a></li>
-                           <li><a target="_blank" href="https://github.com/Safemoon-Inu-Token"><i class="fab fa-github"></i></em></a></li>
-                        </ul>
-                     </div>
-                     <div class="order-first">
-                        <img width="600" id="welcome-pic" src="img/logo-animated.gif" alt="header" />
+         <section id="landing" class="banner banner-full d-flex align-items-center">
+            <video src="video/teaser.mp4" autoplay playsinline muted></video>
+            <div class="viewport-header">
+               <div id="particles-js" class="particles-container particles-js animate__animated animate__fadeIn animate__delay-6s"></div>
+               <div class="container animate__animated animate__zoomIn animate__delay-6s">
+                  <div class="banner-content">
+                     <div class="row">
+                        <div id="welcome-text">
+                           <h1 id="title">SafeMoon Inu</h1>
+                           <p class="lead color-secondary">
+                               <span class="r-18u37iz">
+                                 SafeMoon Inu
+                               </span>
+                               <span class="css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0">
+                                 is the first dog to ever explore the galaxy.
+                               </span>
+                           </p>
+                           <ul class="btns">
+                              <li><a class="btn btn-alt" target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">Live Chart</a></li>
+                              <li><a class="btn btn-alt" target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2">Buy on uniswap</a></li>
+                           </ul>
+                           <ul class="social">
+                              <li><a target="_blank" href="https://t.me/safemooninu"><i class="fab fa-telegram"></i></a></li>
+                              <li><a target="_blank" href="https://discord.com/invite/GYkRw3Sz"><i class="fab fa-discord"></i></a></li>
+                              <li><a target="_blank" href="https://www.reddit.com/r/safemooninu/"><i class="fab fa-reddit"></i></a></li>
+                              <li><a target="_blank" href="https://twitter.com/SafemoonInu"><i class="fab fa-twitter"></i></a></li>
+                              <li><a target="_blank" href="https://instagram.com/safemooninu/"><i class="fab fa-instagram"></i></a></li>
+                              <li><a target="_blank" href="https://medium.com/@SafeMoonInu"><i class="fab fa-medium"></i></a></li>
+                              <li><a target="_blank" href="https://github.com/Safemoon-Inu-Token"><i class="fab fa-github"></i></em></a></li>
+                           </ul>
+                        </div>
+                        <div class="order-first">
+                           <!-- <img width="600" id="welcome-pic" src="img/logo-animated.gif" alt="header" /> -->
+                           <video id="intro-video" src="video/intro.mp4" preload="true" muted loop></video>
+                        </div>
                      </div>
                   </div>
-               </div>
+               </div>  
             </div>
          </section>
 
@@ -275,6 +281,8 @@
                      <li><a target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">Dextools</a></li>
                      <li><a target="_blank" href="https://app.moontools.io/pairs/uniswap/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">Moontools</a></li>
                      <li><a target="_blank" href="https://fomoapp.io/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">FomoApp</a></li>
+                     <li><a target="_blank" href="https://stocktwits.com/symbol/SMI.X">StockWits</a></li>
+                     <li><a target="_blank" href="https://www.worldcoinindex.com/nl/munt/safemoon-inu">WorldCoinIndex</a></li>
                   </ul>
                </div>
                <div class="gridCell socials">
@@ -293,6 +301,13 @@
                      <li><a target="_blank" href="https://t.me/safemooninu">Telegram</a></li>
                      <li><a target="_blank" href="https://www.reddit.com/r/SafemoonInu/comments/nbe9zr/rsafemooninu_lounge/">Reddit Lounge</a></li>
                      <li><a target="_blank" href="https://discord.com/invite/GYkRw3Sz">Discord</a></li>
+                  </ul>
+               </div>
+               <div class="gridCell documents">
+                  <h6>Documents</h6>
+                  <ul>
+                     <li><a target="_blank" href="pdf/whitepaper.pdf">Whitepaper</a></li>
+                     <li><a target="_blank" href="pdf/techrate.pdf">TechRate Audit</a></li>
                   </ul>
                </div>
                <div class="gridCell exchanges">
@@ -325,5 +340,14 @@
       <script type='text/javascript' src='js/jquery.magnific-popup.min.js'></script>
       <script type='text/javascript' src='js/particles.min.js'></script>
       <script type='text/javascript' src='js/script-pack.js'></script>
+
+      <script>
+         var video = document.getElementById("intro-video");
+         video.addEventListener("canplay", function() {
+            setTimeout(function() {
+               video.play();
+            }, 6000);
+         });
+      </script>
    </body>
 </html>

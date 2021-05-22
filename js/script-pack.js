@@ -438,8 +438,8 @@
 	}
 	
 	// particlesJS
-	var $particles_js = $('#particles-js'), $particles_color = "#F00", $particles_color_alt = "#F00" ;
-    if ($body_m.hasClass('io-zinnia')) { $particles_color = "#fff", $particles_color_alt = "#fff"; }
+	var $particles_js = $('#particles-js'), $particles_color = "#FFD700", $particles_color_alt = "#FFD700" ;
+    if ($body_m.hasClass('io-zinnia')) { $particles_color = "#FFD700", $particles_color_alt = "#FFD700"; }
 	if ($particles_js.length > 0 ) {
 		particlesJS('particles-js',
 		// Update your personal code.
@@ -453,7 +453,7 @@
 				}
 			  },
 			  "color": {
-				"value": "#ffffff"
+				"value": $particles_color
 			  },
 			  "shape": {
 				"type": "star",
