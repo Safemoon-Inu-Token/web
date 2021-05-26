@@ -935,26 +935,36 @@ footer .gridCell {
    margin-right: 25%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
    footer .gridCell {
       margin-left: 10%;
       margin-right: 0%;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   footer .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas:
+         "visibility socials"
+         "chats exchanges";
+      padding-bottom: 3em;
+   }
+
+   footer .gridCell {
+      margin-left: 10%;
+      margin-right: 0%;
+      padding-bottom: 1em;
+   }
+
+   .respHide {
+      display: none;
    }
 
    #intro-video {
     margin:0px;
     width:100%;
   }
-}
-
-@media only screen and (max-width: 600px) {
-   footer .gridCell {
-      font-size: 0.9em;
-      margin-left: 10%;
-      margin-right: 0%;
-   }
-
-   .respHide {
-      display: none;
-   }
 }
