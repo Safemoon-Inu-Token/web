@@ -33,7 +33,7 @@ footer {
 #intro-video {
   width:600px;
   margin:20px;
-  box-shadow: 0 0 4px 4px #d6d6d6;
+  box-shadow: 0 0 4px 4px #f0f0f0;
 }
 /* Text meant only for screen readers. */
 
@@ -43,7 +43,7 @@ img {
 }
 
 .btn {
-  color: #d6d6d6;
+  color: #f0f0f0;
 }
 
 section.vc_row {
@@ -66,7 +66,7 @@ body {
 
 body {
   background: #1f222a;
-  color: #d6d6d6;
+  color: #f0f0f0;
 }
 
 html, body {
@@ -165,7 +165,7 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h4, h6 {
-  color: #d6d6d6;
+  color: #f0f0f0;
 }
 
 h1.color-secondary, h2.color-secondary, h4.color-secondary, h6.color-secondary {
@@ -331,8 +331,6 @@ img + h2, img h4 {
 }
 
 .site-header .navbar {
-  background-color: rgba(65, 65, 65, 0.1) !important;
-  border-bottom: 1px solid rgba(206, 206, 206, 0.1) !important;
   border-radius: 0;
   min-width: 300px;
   padding: 12px 0 0;
@@ -415,7 +413,7 @@ img + h2, img h4 {
 
 .navbar-toggler {
   padding: 0 5px;
-  color: #d6d6d6;
+  color: #f0f0f0;
   border-radius: 2px;
   border: none;
   transition: all .5s ease;
@@ -606,16 +604,19 @@ img + h2, img h4 {
 }
 
 .btn.btn-alt {
-  border: 1px solid rgba(0, 192, 199, 0.3);
+  background: rgba(0, 247, 255, 0.05);
+  border: 1px solid #333;
 }
 
 .btn.btn-warning {
-  border: 1px solid rgb(187, 91, 13, 0.3);
+  background: rgba(230, 78, 7, 0.05);
+  border: 1px solid #333;
 }
 
 .btn.btn.btn-warning:hover {
+  background: rgba(214, 101, 8, 0.1);
   color: #d6d6d6;
-  box-shadow: 2px 2px 30px 1px rgb(187, 91, 13);
+  box-shadow: 2px 2px 30px 1px rgb(218, 104, 12);
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
@@ -624,6 +625,7 @@ img + h2, img h4 {
 }
 
 .btn.btn-alt:hover {
+  background: rgba(0, 192, 199, 0.1);
   color: #d6d6d6;
   box-shadow: 2px 2px 30px 1px rgb(0, 192, 199);
   border: 1px solid rgba(0, 0, 0, 0);
@@ -701,7 +703,7 @@ img + h2, img h4 {
 
 .social li a {
   color: #3c3c3c;
-  background: #d6d6d6;
+  background: #f0f0f0;
   display: inline-block;
   height: 35px;
   width: 35px;
@@ -713,7 +715,7 @@ img + h2, img h4 {
 
 .social li a:hover {
   background: #16a3fe;
-  color: #d6d6d6;
+  color: #f0f0f0;
 }
 
 @media only screen and (max-width:320px) {
@@ -769,7 +771,7 @@ section {
 }
 
 .site-header .navbar-brand {
-  margin-top:5px!important;
+  margin-top:22px!important;
   margin-bottom:5px!important;
   margin-left:0;
   margin-right:15px;
