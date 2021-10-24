@@ -1,382 +1,1762 @@
-<!DOCTYPE html>
-<html lang="en-US">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>SafeMoon Inu - The community based meme coin</title>
-      <link rel='stylesheet' href='css/global.css' type='text/css' media='all' />
-      <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
-      <link rel='stylesheet' href='css/fontawesome.min.css' type='text/css' media='all' />
-      <link rel="stylesheet" href="css/animate.css" />
-      <script type='text/javascript' src='js/jquery.min.js'></script>
-      <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
-      <link rel="canonical" href="index.html" />
-      <link rel='shortlink' href='index.html' />
-      <link rel="icon" href="img/logo.png" sizes="32x32" />
-      <link rel="icon" href="img/logo.png" sizes="192x192" />
-   </head>
-   <body class="home">
-       <div id="wrapper">
-           <header class="site-header">
-               <div class="navbar navbar-expand-lg is-transparent">
-                   <nav class="container">
-                       <div class="navbar-brand">
-                           <a href="index.html">
-                               <img class="logo" src="img/logo-animated.gif">
-                               <img class="logo-2" src="img/logo-animated.gif">
-                           </a>
-                       </div>
-                       <button class="navbar-toggler" type="button">
-                           <span class="navbar-toggler-icon">
-                               <span class="ti ti-align-justify"></span>
-                           </span>
-                       </button>
-                       <div class="navbar-collapse justify-content-end">
-                           <ul class="navbar-btns">
-                               <li class="nav-item"><a class="btn btn-warning" target="_blank" href="pdf/whitepaper.pdf">Whitepaper</a></li>
-                               <li class="nav-item"><a class="btn btn-warning" target="_blank" href="pdf/techrate.pdf">Audit</a></li>
-                               <li class="nav-item"><a class="btn btn-alt" target="_blank" href="https://www.unicrypt.network/amm/uni/pair/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">UNICRYPT</a></li>
-                               <li class="nav-item"><a class="btn btn-alt" target="_blank" href="https://etherscan.io/token/0xCd7492db29E2ab436e819b249452EE1bbDf52214">ETHERSCAN</a></li>
-                               <li class="nav-item"><a class="btn btn-alt" target="_blank" href="https://www.thebullacademy.com/safemoon-inu">Merch</a></li>
-                               <li class="nav-item"><a class="btn btn-alt" target="_blank" href="https://t.me/safemooninu">Telegram</a></li>
+<!doctype html>
+<html class="no-js" lang="en">
 
-                           </ul>
-                       </div>
-                   </nav>
-               </div>
-           </header>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SafeMoon Inu - SMI - The community driven gaming & meme token. Blockchain gaming, NFTs & memes.</title>
+    <meta name="description" content="SafeMoon Inu is a community driven gaming & meme token with beyond moon potential. It offers blockchain gaming, NFTs and memes."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Add site Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png">
 
-           <section id="landing" class="banner banner-full d-flex align-items-center">
-               <video src="video/teaser.mp4" autoplay playsinline muted></video>
-               <div class="viewport-header">
-                   <div id="particles-js" class="particles-container particles-js animate__animated animate__fadeIn animate__delay-6s"></div>
-                   <div class="container animate__animated animate__zoomIn animate__delay-6s">
-                       <div class="banner-content">
-                           <div class="row">
-                               <div id="welcome-text">
-                                   <h1 id="title">SafeMoon Inu</h1>
-                                   <p class="lead color-secondary">
-                                       <span class="r-18u37iz">
-                                           SafeMoon Inu
-                                       </span>
-                                       <span class="css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0">
-                                           is the first dog to ever explore the galaxy.
-                                       </span>
-                                   </p>
-                                   <ul class="btns">
-                                       <li><a class="btn btn-alt" target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">Live Chart</a></li>
-                                       <li><a class="btn btn-alt" target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2">Buy on uniswap</a></li>
-                                   </ul>
-                                   <ul class="social">
-                                       <li><a target="_blank" href="https://t.me/safemooninu"><i class="fab fa-telegram"></i></a></li>
-                                       <li><a target="_blank" href="https://discord.com/invite/aqZ7PUDv5j"><i class="fab fa-discord"></i></a></li>
-                                       <li><a target="_blank" href="https://www.reddit.com/r/safemooninu/"><i class="fab fa-reddit"></i></a></li>
-                                       <li><a target="_blank" href="https://twitter.com/SafemoonInu"><i class="fab fa-twitter"></i></a></li>
-                                       <li><a target="_blank" href="https://instagram.com/safemoon_inu/"><i class="fab fa-instagram"></i></a></li>
-                                       <li><a target="_blank" href="https://github.com/Safemoon-Inu-Token"><i class="fab fa-github"></i></em></a></li>
-                                   </ul>
-                               </div>
-                               <div class="order-first">
-                                   <!-- <img width="600" id="welcome-pic" src="img/logo-animated.gif" alt="header" /> -->
-                                   <video id="intro-video" src="video/intro.mp4" preload="true" muted loop></video>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </section>
-
-           <section id="intro">
-               <div class="container">
-                   <div class="row">
-                       <h4 class="elementor-heading-title elementor-size-default">ABOUT</h4>
-                       <em>
-                           <strong>
-                               SafeMoon Inu is the result of Doge and SafeMoon combined. The meme token with beyond moon potential. Enjoy the memes, stay for the laughter and work together as a community to explore the galaxy. The Anti-PaperHand system distributes 2% of every transaction to holders. This incentivizes all hodlers and rewards people that stay on board.
-                           </strong>
-                       </em>
-                   </div>
-               </div>
-           </section>
-
-           <section id="smiplay">
-               <div class="container">
-                   <div class="row">
-                       <h4 class="elementor-heading-title elementor-size-default">SMI PLAY</h4>
-                       <em>
-                           <strong>
-                               SMI PLAY is an upcoming play-to-earn gaming platform that offers additional rewards for SMI token holders. View all the details about SMI PLAY using the buttons down below.
-                           </strong>
-                       </em>
-                   </div>
-               </div>
-               <div class="order-first" style="text-align:center">
-                   <!-- <img width="600" id="welcome-pic" src="img/logo-animated.gif" alt="header" /> -->
-                   <video id="intro-video" src="video/smi_wave.mp4" preload="true" autoplay muted loop style="margin-top: 50px;"></video>
-               </div>
-               <div class="container" style="margin-top: 20px; margin-bottom: 200px; text-align: center">
-                   <a class="btn btn-alt" target="_blank" href="https://play.safemooninu.io">SMI PLAY</a>
-                   <a class="btn btn-alt" target="_blank" href="https://leonyon.github.io/MoonshotVoyage/">TECH DEMO</a>
-               </div>
-           </section>
-
-
-           
+ 
 
 
 
-           <!-- <section id="exchanges">
-       <h2 class="section-title">
-          Exchanges
-       </h2>
-       <img src="img/uniswap.png" alt="SafeMoon Inu is available on uniswap">
-       <hr>
-    </section> -->
+   <!-- CSS  ========================= -->
 
-           <section id="token">
-               <div class="container">
-                   <h2 class="section-title">
-                       Token Details
-                   </h2>
-                   <p>
-                       SafeMoon Inu token is released on the Ethereum blockchain and available on Uniswap.
-                   </p>
-                   <div class="row">
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>NAME</h6>
-                               <p>SafeMoon Inu</p>
-                           </div>
-                       </div>
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>TOTAL SUPPLY </h6>
-                               <p>1,000,000,000,000 SMI</p>
-                           </div>
-                       </div>
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>SYMBOL</h6>
-                               <p>SMI</p>
-                           </div>
-                       </div>
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>Decimals</h6>
-                               <p>08</p>
-                           </div>
-                       </div>
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>TOKEN TYPE</h6>
-                               <p>ERC-20</p>
-                           </div>
-                       </div>
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>CIRCULATING SUPPLY</h6>
-                               <p>1,000,000,000,000 SMI</p>
-                           </div>
-                       </div>
-                       <!-- <div class="col-sm-6">
-                   <div class="event-single-info">
-                      <h6>CONTRACT ADDRESS</h6>
-                      <p>
-                         0xCd7492db29E2ab436e819b249452EE1bbDf52214
-                      </p>
-                   </div>
-                </div> -->
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>AUDITED</h6>
-                               <p>
-                                   <a target="_blank" href="https://etherscan.io/address/0xCd7492db29E2ab436e819b249452EE1bbDf52214#code">Contract</a> was <a target="_blank" href="pdf/techrate.pdf">audited by TechRate</a>
-                               </p>
-                           </div>
-                       </div>
-                       <div class="col-sm-6">
-                           <div class="event-single-info">
-                               <h6>RUG PROOF</h6>
-                               <p>
-                                   Liquidity locked for <a target="_blank" href="https://www.unicrypt.network/amm/uni/pair/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">6 years</a> and ownership is <a target="_blank" href="https://etherscan.io/tx/0xa57625e8f0f27ea91554b08eb3ec49fd451b35f5c1bc08c2b045017d868067be">renounced</a>.
-                               </p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </section>
 
-           <div class="moon-divider top"></div>
 
-           <section id="donation">
-               <video src="video/moon.mp4" autoplay loop playsinline muted></video>
-               <div class="viewport-header">
-                   <div class="container">
-                       <div class="row">
-                           <div class="col-sm-6">
-                               <h1>Donate to SafeMoon Inu</h1>
-                               <p>
-                                   SafeMoon Inu deserves as much visibility as possible. That is why we created the Multi-Sig Community Marketing Wallet. Please donate to the Address below to help the project:<br />
-                                   <br />
-                                   0x3F5a50248B97783bBe3eb4c5dBc13E8dc8d74C1F<br />
-                                   <br />
-                                   Accepted: Any ERC20 token<br />
-                                   Preferred: $SMI or $ETH<br />
-                                   <br />
-                                   <a class="btn btn-alt" target="_blank" href="https://etherscan.io/address/0x3F5a50248B97783bBe3eb4c5dBc13E8dc8d74C1F">View Wallet</a>
-                               </p>
-                           </div>
-                           <div class="col-sm-6">
-                               <img id="community-wallet" src="img/qr-community-wallet.png">
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </section>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
 
-           <section id="buy">
-               <div class="container">
-                   <h2 class="section-title">
-                       How to buy
-                   </h2>
 
-                   <div class="rowGap">
-                       <div class="col-sm-3">
-                           <img src="img/smi-wallet-green.svg">
-                           <h3>Open your Wallet App</h3>
-                           <p>
-                               Don't have a wallet app ? Download the <a target="_blank" href="https://metamask.io/download.html">
-                                   Metamask extension
-                               </a> or get the app for Iphone & Android.
-                           <p>
-                       </div>
 
-                       <div class="col-sm-3">
-                           <img src="img/send-eth-metamask-green.svg">
-                           <h3>Send $ETH to MetaMask</h3>
-                           <p>
-                               Get <span class="tag">$ETH</span> from an exchange or transfer
-                               <span class="tag">$ETH</span> from your existing wallet to your
-                               <span class="tag">MetaMask</span> wallet address.
-                           </p>
-                       </div>
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-                       <div class="col-sm-3">
-                           <img src="img/uniswap-phone-green.svg">
-                           <h3>Connect To Uniswap</h3>
-                           <p>
-                               Head over to <a target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2">Uniswap</a>
-                               and connect your wallet by cliking "Connect Wallet".
-                               Get ready to sign when asked for signature.
-                           </p>
-                       </div>
+<body class="body__bg" data-bgimg="assets/img/bg/body-bg.webp">
+   
+  
+     <!--offcanvas menu area start-->
+     <div class="body_overlay">
+                
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="icofont-close"></i></a>  
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Content</a>
+                                    <ul class="sub-menu">
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#smi_play">SMI Play</a></li>
+											<li><a href="#moonshot_voyage">Moonshot Voyage</a></li>
+											<li><a href="#nfts">NFTs</a></li>
+                                      		<li><a href="#roadmap">Roadmap</a></li>
+                                       		<li><a href="#tokenomics">Tokenomics</a></li>
+											<li><a href="#merchandise">Merchandise</a></li>
+											<li><a href="#smi_angels">SMI Angels</a></li>
+											<li><a href="#how_to_buy">How to buy</a></li>	
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Socials</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="https://discord.com/invite/aqZ7PUDv5j" target="_blank">Discord</a></li>
+										
+										<li><a href="https://www.facebook.com/SafemoonInu" target="_blank">Facebook</a></li>
+										
+										<li><a href="https://github.com/Safemoon-Inu-Token" target="_blank">Github</a></li>
+										
+										<li><a href="https://www.instagram.com/safemoon_inu" target="_blank">Instagram</a></li>
+										
+										<li><a href="https://www.reddit.com/r/safemooninu" target="_blank">Reddit</a></li>
+										
+																				
+										<li><a href="https://t.me/safemooninu" target="_blank">Telegram</a></li>
+										
+										<li><a href="https://twitter.com/SafemoonInu" target="_blank">Twitter</a></li>
+										
+										<li><a href="https://www.youtube.com/channel/UCXjZjH7FVhlhNpYQn2fi6wA" target="_blank">Youtube</a></li>
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Various</a>
+                                    <ul class="sub-menu">										
+										<li><a href="https://etherscan.io/token/0xcd7492db29e2ab436e819b249452ee1bbdf52214" target="_blank">Etherscan</a></li>
+										
+										<li><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank">Merchandise Shop</a></li>
+										
+										<li><a href="https://enjinx.io/eth/marketplace" target="_blank">NFT Marketplace</a></li>
+										
+										<li><a href="https://play.safemooninu.io" target="_blank">SMI Play Whitepaper</a></li>
+										
+										<li><a href="assets/pdf/techrate.pdf" target="_blank">TechRate Audit</a></li>
+										
+										<li><a href="https://app.unicrypt.network/amm/uni-v2/pair/0x2d27cae0c7e88De9b85b3E44ea37b9cb70cA745f" target="_blank">Unicrypt Locker</a></li>
+										
+										<li><a href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2" target="_blank">Uniswap</a></li>
+										
+										<li><a href="assets/pdf/whitepaper.pdf" target="_blank">Whitepaper</a></li>
+										
+										
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--offcanvas menu area end-->
 
-                       <div class="col-sm-3">
-                           <img src="img/ethereum-green.svg">
-                           <h3>Swap $ETH For $SMI</h3>
-                           <p>
-                               Set the slippage tolerance to 6%-8%. Enter the amount
-                               of <span class="tag">$ETH</span> you would like to swap
-                               and make sure to keep enough <span class="tag">$ETH</span>
-                               in your wallet for gas fee! Lastly, HODL!
-                           </p>
-                       </div>
-                   </div>
+    <!--header area start-->
+    <header class="header_section header_transparent sticky-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main_header d-flex justify-content-between align-items-center">
+                        <div class="header_logo">
+                            <a class="sticky_none" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!--main menu start-->
+                        <div class="main_menu d-none d-lg-block"> 
+                            <nav>  
+                                <ul class="d-flex">
+                                    <li><a href="index.html">Home</a></li> 
+                                    <li><a>Content</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#smi_play">SMI Play</a></li>
+											<li><a href="#moonshot_voyage">Moonshot Voyage</a></li>
+											<li><a href="#nfts">NFTs</a></li>
+                                      		<li><a href="#roadmap">Roadmap</a></li>
+                                       		<li><a href="#tokenomics">Tokenomics</a></li>
+											<li><a href="#merchandise">Merchandise</a></li>
+											<li><a href="#smi_angels">SMI Angels</a></li>
+											<li><a href="#how_to_buy">How to buy</a></li>		
+                                        </ul>
+                                        
+                                    </li>
+                                    <li><a>Socials</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="https://discord.com/invite/aqZ7PUDv5j" target="_blank">Discord</a></li>
+										
+										<li><a href="https://www.facebook.com/SafemoonInu" target="_blank">Facebook</a></li>
+										
+										<li><a href="https://github.com/Safemoon-Inu-Token" target="_blank">Github</a></li>
+										
+										<li><a href="https://www.instagram.com/safemoon_inu" target="_blank">Instagram</a></li>
+										
+										<li><a href="https://www.reddit.com/r/safemooninu" target="_blank">Reddit</a></li>
+										
+																				
+										<li><a href="https://t.me/safemooninu" target="_blank">Telegram</a></li>
+										
+										<li><a href="https://twitter.com/SafemoonInu" target="_blank">Twitter</a></li>
+										
+										<li><a href="https://www.youtube.com/channel/UCXjZjH7FVhlhNpYQn2fi6wA" target="_blank">Youtube</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a>Various</a>
+                                        <ul class="sub_menu">
+                                        <li><a href="https://etherscan.io/token/0xcd7492db29e2ab436e819b249452ee1bbdf52214" target="_blank">Etherscan</a></li>
+										
+										<li><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank">Merchandise Shop</a></li>
+										
+										<li><a href="https://enjinx.io/eth/marketplace" target="_blank">NFT Marketplace</a></li>
+										
+										<li><a href="https://play.safemooninu.io" target="_blank">SMI Play Whitepaper</a></li>
+										
+										<li><a href="assets/pdf/techrate.pdf" target="_blank">TechRate Audit</a></li>
+										
+										<li><a href="https://app.unicrypt.network/amm/uni-v2/pair/0x2d27cae0c7e88De9b85b3E44ea37b9cb70cA745f" target="_blank">Unicrypt Locker</a></li>
+										
+										<li><a href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2" target="_blank">Uniswap</a></li>
+										
+										<li><a href="assets/pdf/whitepaper.pdf" target="_blank">Whitepaper</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>  
+                            </nav>
+                        </div>
+                        <!--main menu end-->
+                        <div class="header_right_sidebar d-flex align-items-center">
+                            <div class="sing_up_btn">
+								
+                                 <a class="btn btn-link" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2" target="_blank">BUY ON UNISWAP<img src="assets/img/icon/arrrow-icon2.webp" alt=""> </a>
+																
+								
+                            </div>
+                            <div class="canvas_open">
+                                <a href="javascript:void(0)"><i class="icofont-navigation-menu"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header area end-->
 
-                   <div class="disclaimer">
-                       Disclaimer: The content of this website is provided for information
-                       purposes only and shall not in any way constitute an
-                       investment advice or investment recommendation
-                       in any product discussed. Buy at your own risk.
-                       Safemoon Inu ($SMI) is a meme token.
-                       It is strongly recommended that you seek professional
-                       investment advice before making any investment decision.
-                       Any investment decision that you make should be based on an
-                       assessment of your risks in consultation with your
-                       investment adviser.
-                   </div>
+    <!-- page wrapper start -->
+    <div class="page_wrapper">
 
-                   <a class="btn btn-alt" target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2">Buy on Uniswap</a>
-                   <a class="btn btn-alt" target="_blank" href="https://shibaswap.com/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214">Buy on Shibaswap</a>
-               </div>
-           </section>
+        <!--slide banner section start-->
+        <section class="hero_banner_section d-flex align-items-center mb-130" data-bgimg="assets/img/bg/hero-bg1.webp">
+            <div class="container">
+                <div class="hero_banner_inner">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="hero_content">
+                              <h1 class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s" style="visibility: visible; animation-duration: 1.1s; animation-delay: 0.1s; animation-name: fadeInUp;">SAFEMOON INU</h1>
+							  <h2>PLAY TO REACH THE MOON</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="hero_position_img">
+                <img src="assets/img/bg/hero-position-img.webp" alt="">
+            </div>
+        </section>
+        <!--slider area end-->
 
-           <footer class="section section-pad-sm">
+        <!-- gaming  world section start -->
+        <section class="gaming_world_section mb-140">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
+					<h2 id="about">ABOUT</h2>
+                  <p align="justify">SafeMoon Inu is a community driven meme & gaming token. The Anti-PaperHand system distributes 2% of every transaction to holders. This incentivizes all hodlers and rewards people that stay on board. The upcoming play-to-earn gaming platform SMI Play with in-game NFTs will offer additional rewards for SMI token holders. SafeMoon Inu is a smart ERC20 token with beyond moon potential that is here to stay. </p>
+                </div>
+                <div class="gaming_world_inner">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single_gaming_world wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg1.webp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                                <div class="gaming_world_thumb">
+                                    <img src="assets/img/logo/moonshot_small.png" alt="">
+                                </div>
+                                <div class="gaming_world_text">
+                                    <h3>GAMES</h3>
+                                    <p>SMI Play will launch with one game available at first: a top-down view looter shooter “Moonshot Voyage”.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single_gaming_world wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg2.webp" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                                <div class="gaming_world_thumb">
+                                    <img src="assets/img/others/nft22.png" alt="">
+                                </div>
+                                <div class="gaming_world_text">
+                                    <h3>NFTs</h3>
+                                    <p>Earn, buy, collect, trade, melt and sell Non-Fungible Tokens. (Coming soon)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single_gaming_world wow fadeInUp" data-bgimg="assets/img/others/gaming-world-bg3.webp" data-wow-delay="0.3s" data-wow-duration="1.3s">
+                                <div class="gaming_world_thumb">
+                                    <img src="assets/img/others/meme1.png" alt="">
+                                </div>
+                                <div class="gaming_world_text">
+                                    <h3>MEMES</h3>
+                                    <p>Enjoy the memes, stay for the laughter and work together as a community to explore the galaxy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gaming  world section end -->
 
-               <div class="container gridContainer">
-                   <div class="gridCell visibility">
-                       <h6>Visibility</h6>
-                       <ul>
-                           <li><a target="_blank" href="https://coinmarketcap.com/currencies/safemoon-inu/">CoinMarketCap</a></li>
-                           <li><a target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">Dextools</a></li>
-                           <li><a target="_blank" href="https://app.moontools.io/pairs/uniswap/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">Moontools</a></li>
-                           <li><a target="_blank" href="https://fomoapp.io/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f">FomoApp</a></li>
-                           <li><a target="_blank" href="https://stocktwits.com/symbol/SMI.X">StockTwits</a></li>
-                           <li><a target="_blank" href="https://www.worldcoinindex.com/coin/safemoon-inu">WorldCoinIndex</a></li>
-                       </ul>
-                   </div>
-                   <div class="gridCell socials">
-                       <h6>Socials</h6>
-                       <ul>
-                           <li><a target="_blank" href="https://twitter.com/SafemoonInu">Twitter<span class="respHide"> (Community)</span></a></li>
-                           <li><a target="_blank" href="https://www.reddit.com/r/safemooninu/">Reddit</a></li>
-                           <li><a target="_blank" href="https://instagram.com/safemoon_inu/">Instagram</a></li>
-                       </ul>
-                   </div>
-                   <div class="gridCell chats">
-                       <h6>Chats</h6>
-                       <ul>
-                           <li><a target="_blank" href="https://t.me/safemooninu">Telegram</a></li>
-                           <li><a target="_blank" href="https://www.reddit.com/r/SafemoonInu/comments/nbe9zr/rsafemooninu_lounge/">Reddit Lounge</a></li>
-                           <li><a target="_blank" href="https://discord.com/invite/aqZ7PUDv5j">Discord</a></li>
-                       </ul>
-                   </div>
-                   <div class="gridCell documents">
-                       <h6>Documents</h6>
-                       <ul>
-                           <li><a target="_blank" href="pdf/whitepaper.pdf">Whitepaper</a></li>
-                           <li><a target="_blank" href="pdf/techrate.pdf">TechRate Audit</a></li>
-                           <li><a target="_blank" href="https://play.safemooninu.io">SMI PLAY</a></li>
-                       </ul>
-                   </div>
-                   <div class="gridCell exchanges">
-                       <h6>Exchanges</h6>
-                       <ul>
-                           <li><a target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2">Uniswap</a></li>
-                           <li><a target="_blank" href="https://shibaswap.com/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214">Shibaswap</a></li>
-                           <li><a href="#">More soon...</a></li>
-                       </ul>
-                   </div>
-               </div>
+        <!-- gaming video section start -->
+        <section class="gaming_video_section mb-118 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="gaming_video_inner slick_navigation slick__activation" data-slick='{
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1,
+                            "arrows": true,
+                            "dots": false,
+                            "autoplay": false,
+                            "speed": 300,
+                            "infinite": true ,  
+                            "responsive":[ 
+                            {"breakpoint":500, "settings": { "slidesToShow": 1 } }  
+                            ]                                                     
+                        }'>
+                            <div class="gaming_video_thumb">
+                                <img src="assets/img/bg/video2.webp" alt="">
+                                <div class="gaming_video_paly_icon">
+                                    <a class="video_popup" href="https://www.youtube.com/watch?v=NM8ZqvY59zY"><img src="assets/img/others/play-btn.webp" alt=""></a>
+                                </div>
+                                <div class="live_streaming_text">
+                                  <h3>MOONSHOT VOYAGE</h3>
+                                </div>
+                            </div>
+                            <div class="gaming_video_thumb">
+                                <img src="assets/img/bg/video1.webp" alt="">
+                                <div class="gaming_video_paly_icon">
+                                    <a class="video_popup" href="https://www.youtube.com/watch?v=3QV2ule3Qsw"><img src="assets/img/others/play-btn.webp" alt=""></a>
+                                </div>
+                                <div class="live_streaming_text">
+                                    <h3>INTRODUCING SMI</h3>
+                                </div>
+                            </div>
+							<div class="gaming_video_thumb">
+                                <img src="assets/img/bg/video3.webp" alt="">
+                                <div class="gaming_video_paly_icon">
+                                    <a class="video_popup" href="https://www.youtube.com/watch?v=Ca2yoMYVDKg"><img src="assets/img/others/play-btn.webp" alt=""></a>
+                                </div>
+                                <div class="live_streaming_text">
+                                    <h3>SMI ANGELS</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gaming video section end -->
 
-               <div class="container">
-                   <div class="row text-center">
-                       <div class="col-md-12">
-                           <ul class="social">
-                               <li><a target="_blank" href="https://t.me/safemooninu"><i class="fab fa-telegram"></i></a></li>
-                               <li><a target="_blank" href="https://discord.com/invite/aqZ7PUDv5j"><i class="fab fa-discord"></i></a></li>
-                               <li><a target="_blank" href="https://www.reddit.com/r/safemooninu/"><i class="fab fa-reddit"></i></a></li>
-                               <li><a target="_blank" href="https://twitter.com/SafemoonInu"><i class="fab fa-twitter"></i></a></li>
-                               <li><a target="_blank" href="https://instagram.com/safemoon_inu/"><i class="fab fa-instagram"></i></a></li>
-                               <li><a target="_blank" href="https://github.com/Safemoon-Inu-Token"><i class="fab fa-github"></i></a></li>
-                           </ul>
-                           <span class="copyright-text">SafeMoon Inu © 2021. All rights reserved.</span>
-                       </div>
-                   </div>
-               </div>
-           </footer>
-       </div>
-      <script type='text/javascript' src='js/jquery.magnific-popup.min.js'></script>
-      <script type='text/javascript' src='js/particles.min.js'></script>
-      <script type='text/javascript' src='js/script-pack.js'></script>
+		
+		
+		        <!-- SMI PLAY & Moonshot Voyage - testimonial section start -->
+        <section class="testimonial_section wow fadeInUp" data-bgimg="assets/img/others/testimonial-bg-fullwidth.webp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_title mb-60">
+                          <h2 id="smi_play">SMI PLAY &amp;<br>
+                          MOONSHOT VOYAGE</h2>
+                        </div>
+                        <div class="testimonial_inner slick__activation slick_navigation" data-slick='{
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1,
+                            "arrows": true,
+                            "dots": false,
+                            "autoplay": false,
+                            "speed": 300,
+                            "infinite": true ,  
+                            "responsive":[  
+                            {"breakpoint":576, "settings": { "slidesToShow": 1 } }  
+                            ]                                                     
+                        }' data-bgimg="assets/img/others/testimonial-bg.webp">
+							
+							 <!--  ============ slider content SMI PLAY & Moonshot Voyage =============== -->
+							
+							<!--  ============ slider #1  =============== -->
+							
+                            <div class="testimonial_list d-flex align-items-center">
+                               
+								
+                                
+                                    <div class="testimonial_desc" align="justify">
+										<h3>WHAT IS SMI PLAY?</h3>
+                                        <p>SMI Play (powered by Enjin) is an online platform that allows users to earn cryptocurrency by playing games via play-to-earn. In-game token items are stored as Fungible or Non-Fungible Tokens on the JumpNet blockchain, you can either use them in games, sell on a marketplace or melt them to destroy them for cryptocurrency.<br><br>
+SMI Play will launch with one game available - Moonshot Voyage, with more games to join it shortly after.
+											<br>
+										
+										<div align="center"><img src="assets/img/logo/enjin2b.png" alt=""></div></p>
+										
+                                   
+                                
+                                    </div>
+                                    
+                            </div>
+							
+							<!--  ============ slider #2  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                                
+								
+                               
+                                    <div class="testimonial_desc" align="justify">
+										<h3>ROLE OF SMI</h3>
+                                        <p>Users can use their Ethereum address as an account to access any game on the platform, the account is shared between games.<br><br>
+											SMI had its ownership renounced, which makes it virtually impossible to change contract code. Original SMI is still used on the platform - games can read the SMI amount on players' accounts. SMI holders get in-game benefits from holding the token, accordingly to the amount held. The more SMI you hold, the better chance of obtaining a rare Token item you have. If you hold above a certain amount of SMI, you can also get a special Fish/Dolphin/Whale status for additional benefits, free item rewards etc.</p>
+										
+										
+                                    </div>
+                                   
+                            </div>
+							
+							
+							<!--  ============ slider #3  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                              
+								
+                            
+                                    <div class="testimonial_desc" align="justify">
+									  <h3>TOKEN ITEMS</h3>
+                                        <ul>
+                                          <li>Token Items can be obtained in a variety of ways:
+                                            <br>
+                                            
+                                            
+                                            <strong>• Buying</strong> - you can buy an item directly from the marketplace<br>
+                                            
+                                            <strong>• Dropping</strong> - you can get an item via gameplay, as a random drop<br>
+                                            
+                                          <strong>• Reward</strong> - you can get an item as a free reward for holding SMI, via the Fish/Dolphin/Whale status<br><br>
 
-      <script>
-         var video = document.getElementById("intro-video");
-         video.addEventListener("canplay", function() {
-            setTimeout(function() {
-               video.play();
-            }, 6000);
-         });
-      </script>
-   </body>
+                                          </li>
+                                          <li> Every Token Item you have can be used in game, sold on the marketplace or melted to gain a set amount of ENJ cryptocurrency. Every transaction using SMI Play games Token Items includes a 4% fee that goes straight into the community dev wallet.</li>
+                                          <li> </li>
+                                        </ul>
+										
+                                    </div>
+                                 
+                            </div>
+							
+							<!--  ============ slider #3  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                              
+								
+                            
+                                    <div class="testimonial_desc" align="justify">
+									 <h3>MELTING</h3>
+                                        <p>Melting a Token Item is a process of taking it out of the blockchain in exchange for a set amount of ENJ cryptocurrency - essentially destroying the item for ENJ. Melting includes a 40% fee - player receives 60% of the Token Item's melt value, 40% goes to the community dev wallet.</p>
+										
+										
+										
+										
+                                    </div>
+                                 
+                            </div>
+							
+							<!--  ============ slider #4  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                              
+								
+                              
+                                  <div class="testimonial_desc" align="justify">
+									<h3>ITEM RARITY</h3>
+                                        <p>There are 6 tiers of item rarity in SMI Play games:<br>
+                                          1: <strong>Common</strong> - 68.9% chance to get<br>
+                                        2: <strong>Uncommon</strong> - 15% chance to get<br>
+                                        3: <strong>Rare</strong> - 10% chance to get<br>
+                                        4: <strong>Ultra Rare</strong> - 5% chance to get<br>
+                                        5: <strong>Legendary</strong> - 1% chance to get<br>
+                                        6: <strong>Galactical</strong> - 0.1% chance to get
+                                        <br>
+                                        <br>
+                                        Players can boost their chance to get an Uncommon/Rare/UR/Legendary/Galactical item by holding SMI on their account. This is called an SMI Rate Boost. The amount of boost per SMI is yet to be determined.</p>
+				
+                                        
+                                    </div>
+                                
+                            </div>
+							
+							<!--  ============ slider #4  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                              
+								
+                              
+                                  <div class="testimonial_desc" align="justify">
+			
+											<h3>SMI HOLDER STATUS</h3>
+									  <p>By holding SMI, players can achieve a special SMI Holder Status:
+                                        <br>
+                                        1: 
+                                        <strong>Fish</strong> - needs to be holding 1M SMI<br>
+                                        2:
+                                        <strong>Dolphin</strong> - needs to be holding 100M SMI<br>
+                                        3: 
+                                        <strong>Whale</strong> - needs to be holding 1B SMI<br>
+                                        <br>
+                                        Fish, Dolphin and Whale players will get access to free daily in-game items as rewards from developers, this includes Token Items. The amount of items and their type depends on the Status.</p>
+                                        
+                                    </div>
+                                
+                            </div>
+							
+							
+							<!--  ============ slider #5  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                                
+								
+                                
+                                  <div class="testimonial_desc" align="justify">
+									<h3 id="moonshot_voyage">MOONSHOT VOYAGE</h3>
+                                        <p>Moonshot Voyage is an upcoming launch title on the SMI Play platform. It's a top-down looter shooter game with a play-to-earn system based on SMI Play Token Items.<br>
+                                        <br>
+                                        Take a role of a space bounty hunter and traverse an unknown galaxy after being sucked into a black hole while trying to find a legendary spaceship - the Moonshot. It won't be an easy task though...
+                                        <br>
+                                        <br>
+                                    Fight aliens, monsters, ghosts and other deadly creatures along the way to reach the Moonshot and all its secrets.</p>
+								  </div>
+                                   
+                            </div>
+							
+							<!--  ============ slider #5  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                                
+								
+                                
+                                  <div class="testimonial_desc" align="justify">
+							
+								    <h3>HOW TO PLAY?</h3>
+									  <p>You can play Moonshot Voyage in your web browser. Enjin Wallet app required to link your game account to your Ethereum wallet.<strong> </strong>Future mobile/standalone ports are possible, but not planned as of now. Keep an eye out for test builds and updates on the SafeMoon Inu Telegram.<br>
+									    <br>
+
+Estimated release date: <strong>Q1 2022</strong><br>
+<br>
+
+										  
+										  <div class="sing_up_btn">
+								
+                                 <a class="btn btn-link" href="https://leonyon.github.io/MoonshotVoyage" target="_blank">PLAY TECH DEMO</a>
+																
+								
+                            </div>
+										  
+										  
+									  </p></div>
+                                   
+                            </div>
+							
+							
+							<!--  ============ slider #6  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                               
+								
+                                
+                                  <div class="testimonial_desc" align="justify">
+									<h3>GAMEPLAY - SPACESHIP</h3>
+									  
+									  <p>Your spaceship is your hub, where you can prepare your character for an expedition, check your mail, craft items, view your resources, upgrade your weapons and characters etc. There are many different ships available as Token Items which you can customize using furniture items.<br>
+									  <br>
+									  </p>
+                                  </div>
+                                   
+                            </div>
+							
+							
+							<!--  ============ slider #6  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                               
+								
+                                
+                                  <div class="testimonial_desc" align="justify">
+									<h3>GAMEPLAY - EXPEDITIONS</h3>
+									<p>
+									  To start an expedition you need to select a character and a destination area. You will then enter an expedition mode. During the expedition you can freely control your character in a top-down view. The goal of an expedition is to explore the area, gather resources, find loot and defeat enemies. Expeditions are the main source of upgrade materials you need for bettering your character and weapons.<br>
+									  <br>
+									  There is a very small chance of receiving Token Items during expeditions as random drops, even the rare ones.<br>
+									  <br>
+									  You can enter expeditions freely at any time if you have a healthy character and a weapon.
+<br>
+</p>
+                                        
+                                  </div>
+                                   
+                            </div>
+							
+							<!--  ============ slider #7  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                              
+								
+                               
+                                  <div class="testimonial_desc" align="justify">
+									<h3>GAMEPLAY - RAIDS</h3>
+                                        <p>
+                                          Raids are similar to expeditions, but are slightly longer, harder and end with a boss fight. Raid bosses have a 100% chance to drop a Token Item.
+                                          <br>
+                                          <br>
+                                          Each raid boss has a set list of available item drops which you can view before starting a raid.
+                                          <br>
+                                          <br>
+                                          You are limited to 1 raid per day, with some exceptions (like limited-time events or if given a free raid pass).
+                                         </p>
+							
+                                  </div>
+                                  
+                            </div>
+							
+						
+						
+							<!--  ============ slider #7  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                              
+								
+                               
+                                  <div class="testimonial_desc" align="justify">
+									
+									  <h3>GAMEPLAY - INTERGALACTIC SPACE STATION</h3>
+                                        <p>
+                                          The ISS is a hub where players can interact with each other, have a chat with friends, use the marketplace or view the leaderboards.</p>
+                                        
+                                  </div>
+                                  
+                            </div>
+						
+						
+							
+												
+														<!--  ============ slider #8  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                            
+								
+                               
+                                  <div class="testimonial_desc" align="justify">
+									<h3>GAMEPLAY - COMBAT (1/2)</h3>
+                                        <p>
+                                          Combat takes a huge part of Moonshot Voyage. It consists of shooting enemies using your character and a weapon of choice while dodging enemy attacks. Your starting character and weapon will be weak, so you should pay a lot of attention to upgrading and optimizing your setup. 
+                                          <br>
+                                          <br>
+                                          There is a broad variety of guns and weapons available for your characters to equip. You can level up your characters and upgrade your weapons by equipping upgrade modules. An example of an upgrade module is an item that makes your weapon shoot 2 bullets at once instead of 1, increases your shooting speed or just boosts your damage numbers. You have limited upgrade module slots so choose them wisely!
+                                          </p>
+                                        
+                                  </div>
+                                   
+                            </div>
+							
+							
+														<!--  ============ slider #8  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                            
+								
+                               
+                                  <div class="testimonial_desc" align="justify">
+									<h3>GAMEPLAY - COMBAT (2/2)</h3>
+                                        <p>
+                                         
+                                          By having a high-level character and a good upgraded weapon you will be able to face the hardest expeditions and raids.
+                                          <br>
+                                          <br>
+                                    To maintain longevity of the endgame, the difficulty and upgrade cap can be increased once in a while.</p>
+                                        
+                                  </div>
+                                   
+                            </div>
+							
+							
+														<!--  ============ slider #9  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                               
+					
+                               
+                                  <div class="testimonial_desc" align="justify">
+									<h3>STADARD ITEMS</h3>
+                                   <p>Standard items are not placed on the blockchain, you can get them during expeditions, raids or as rewards. There are a few types of Standard Items:
+                                        <br>
+
+                                     <strong>Consumables</strong> - items that can be taken with you on an expedition or raid. An example is a healing salve or an item that grants you a timed buff.<br>
+                                      <strong>Materials</strong> - items that can be gathered during expeditions and raids. You can use them to craft better items, upgrade characters and weapons etc.<br>
+                                      <strong>Miscellaneous</strong> - key items to use in raids and expeditions. These items have a variety of uses. </p>
+                                        
+                                  </div>
+                                  
+                            </div>
+							
+																					<!--  ============ slider #10  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                               
+								
+                               
+                                  <div class="testimonial_desc" align="justify">
+									<h3>TOKEN ITEMS (1/2)</h3>
+                                    <p>Token Items are placed on a blockchain, as Fungible or Non-Fungible Tokens. These are much rarer to obtain in game (other than in raids), but can be bought on the marketplace.<br>
+									<br>
+										There are many types of Token Items:<br>
+                                     <strong>Characters</strong> - randomized NFTs, common type characters are not very powerful, but can be upgraded while rarer characters can have a variety of appearance details, passive or active abilities and statistics.<br>
+                                    <strong>Weapons</strong> - randomized NFTs, they can have different appearances, range, shot speed, bullet types, spread types etc.<br>
+
+										
+                                      </p>
+                                        
+                                  </div>
+                                   
+                            </div>
+							
+																												<!--  ============ slider #10  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                               
+								
+                               
+                                  <div class="testimonial_desc" align="justify">
+									<h3>TOKEN ITEMS (2/2)</h3>
+                                    <p>
+                                    <strong>Companions</strong> - FTs, small friends you can have with you at all times!<br>
+                                    <strong>Spaceships</strong> - FTs, mostly differ in appearance and size<br>
+                                    <strong>Furniture</strong> - FTs, can be placed in your spaceship and are mostly cosmetic<br>
+                                    <strong>Upgrade Modules</strong> - FTs, have different types and stages (example: Damage Module Level 5 will offer a level 5 boost to damage to your weapon)<br>
+                                    <strong>Special Tokens</strong> - event-tied collectible items, these are very limited and the usage depends on the token</p>
+                                        
+                                  </div>
+                                   
+                            </div>
+                           
+							
+																					<!--  ============ slider #11  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                             
+								
+                                
+                                  <div class="testimonial_desc" align="justify">
+									<h3>STORY (1/2)</h3>
+                                    <p><strong>An ancient legend says...</strong><br>
+                                          <br>
+										...that once upon a time, people of Earth saw a great, flying fortress traversing through the sky. It would brighten the night sky with its shine so much, that some people couldn't differ the night from day in its presence. The object disappeared behind the moon, never to be seen again. Because of that, people of Earth named the phenomenon - <strong>the Moonshot</strong>.<br>
+<br>
+
+Many space travelers and bounty hunters tried seeking for the Moonshot, in a hunt for the unknown. Some said the Moonshot contained sacred treasure, others that it's powered by magic. No matter what the seekers of the Moonshot believed in, they all had one goal: to find the ship.
+										
+									  </p>
+
+                                        
+                                  </div>
+                                   
+                            </div>
+                           
+                           
+																												<!--  ============ slider #12  =============== -->
+							
+							<div class="testimonial_list d-flex align-items-center">
+                             
+								
+                                
+                                  <div class="testimonial_desc" align="justify">
+									<h3>STORY (2/2)</h3>
+                                    <p>
+										
+Tens of decades passed without any sightings of the legendary spaceship. Then, out of nowhere, during one ordinary night, space travelers of all kinds and races looked up in the sky, as it became bright as day again. Like a shooting star, the Moonshot pierced the space above them. This time it was different, though. All of a sudden, a black hole appeared near the spacecraft, sucking it inside. This was the moment all the Moonshot seekers have been waiting for. Each one of them got onto a spaceship of choice and chased the legendary object. Tens of thousands of ships disappearing in the vortex of the black hole...
+<br>
+<br>
+...and so their story begins...</p>
+                                        
+                                  </div>
+                                   
+                            </div>
+                           
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section end -->
+		
+		
+		
+		
+		
+		
+		        <!-- NFTs -->
+        <section class="popular_gaming_section mb-140">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                    <h2 id="nfts">NFTs</h2>
+					<p>Coming soon</p>
+                </div>
+				
+				<div class="team_players_area">
+              
+
+                                <div class="team_players_list">
+
+                                    <div class="team_players_title">
+
+                                    </div>
+
+                                    <div class="team_players_inner slick__activation" data-slick='{
+
+                                        "slidesToShow": 6,
+
+                                        "slidesToScroll": 6,
+
+                                        "arrows": false,
+
+                                        "dots": true,
+
+                                        "autoplay": true,
+
+                                        "speed": 300,
+
+                                        "infinite": true ,  
+
+                                        "responsive":[  
+
+                                        {"breakpoint":1200, "settings": { "slidesToShow": 5 } } , 
+
+                                        {"breakpoint":992, "settings": { "slidesToShow": 4 } } , 
+
+                                        {"breakpoint":768, "settings": { "slidesToShow": 3 } } , 
+
+                                        {"breakpoint":576, "settings": { "slidesToShow": 2 } }   
+
+                                        ]                                                     
+
+                                    }'>
+
+										
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w1.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c1.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w2.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c2.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w3.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c3.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w4.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w1.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c1.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w2.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c2.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w3.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c3.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w4.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w1.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c1.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w2.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c2.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w3.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/c/c3.png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://enjinx.io/eth/marketplace" target="_blank"><img src="assets/img/others/nfts/w/w4.png" alt=""></a></div></div>
+										
+										
+										
+										                                       
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+				
+				
+            </div>
+        </section>
+        <!-- NFTs section end -->
+		
+		
+		
+		
+        <!-- upcoming gaming section start -->
+        <section class="upcoming_gaming_section mb-125">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                  <h2 id="roadmap">ROADMAP</h2>
+                </div>
+                <div class="upcoming_gaming_inner">
+                    <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center mb-30" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                      <div class="upcoming_gaming_text">
+                          <h3>PHASE 1</h3>  
+						  <h4><strong>FAIR LAUNCH</strong></h4>
+                        
+                          <span>Start: Q2 2021<br>
+                        Status: Mission Accomplished</span>
+                        </div>
+						
+						<div>
+						🚀 ERC20 contract creation<br>
+						🚀 Renounce ownership<br>
+						🚀 Fair Launch<br>
+						🚀 Uniswap listing<br>
+						
+						
+							
+					  </div>
+						<div>
+						🚀 Lock LP with Unicrypt<br>
+						🚀 Audit by TechRate<br>
+						🚀 CoinMarketCap listing<br>
+						🚀 Coingeko listing<br>
+						
+							</div>
+
+                     <div>
+						🚀 Social Media accounts<br>
+						🚀 Multisig Marketing wallet<br>
+						🚀 Inhouse Telegram chatbot<br>
+					   🚀 Survive the China FUD<br>
+					  </div>
+                    </div> 
+                    <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center mb-30" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                      <div class="upcoming_gaming_text">
+                             <h3>PHASE 2</h3>  
+						  <h4><strong>SMI PLAY</strong></h4>
+                          <span>Start: Q3 2021<br>
+                          Status: Mission in Progress</span>
+                        </div>
+                     <div>
+						 
+						🕹️ Gaming platform launch<br>
+						🕹️ Moonshot Voyage<br>
+					   	🕹️ Partnerships
+							 
+					  </div>
+						<div>
+							🕹️ Apply for CEX listing<br>
+						 	🕹️ Main Marketing push<br>
+							🕹️ NFT launch
+					
+					  </div>
+
+                     <div>
+						 🕹️ Website upgrade<br>
+						🕹️ YouTube coverage<br>
+					   🕹️ Merchandise shop
+						
+					  </div>
+                    </div> 
+                    <div class="upcoming_gaming_list wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.3s" data-wow-duration="1.3s">
+                      <div class="upcoming_gaming_text">
+                             <h3>PHASE 3</h3>  
+						  <h4><strong>BEYOND THE MOON</strong></h4>
+                          <span>Estimated start: Q2 2022<br>
+                          Status: Mission on Standby</span>
+                        </div>
+                      <div>
+						🌕 Further CEX listings<br>
+						🌕 More partnerships<br>
+						</div>
+						<div>
+						🌕 2nd play-to-earn game<br>
+						🌕 Expand SMI ecosystem<br>
+						</div>
+
+                     <div>
+						🌕 Full Marketing push<br>
+						🌕 Billboards<br>
+					  </div>
+                    </div>
+					
+                </div>
+
+            </div>
+        </section>
+        <!-- upcoming gaming section end -->
+
+        <!-- counterup section start -->
+		<div class="container">
+		  <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
+            <h2 id="tokenomics">TOKENOMICS</h2>
+  		    <p>CONTRACT<br>
+<a href="https://etherscan.io/address/0xCd7492db29E2ab436e819b249452EE1bbDf52214#code" target="_blank">0xCd7492db29E2ab436e819b249452EE1bbDf52214</a>
+			</p>
+			  
+				  
+			  
+			  
+          </div>
+		</div>
+        <section class="counterup_section mb-115 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="counterup_inner d-flex justify-content-center">
+                            <div class="single_counterup one">
+                              <div class="counterup_text">
+                                <h2 class="color1">5,902</h2>
+                                  <span>$SMI HODLERS</span>
+                                </div>
+                            </div>
+                            <div class="single_counterup three">
+                                <div class="counterup_text">
+                                    <h2 class="color3">2%</h2>
+                                    <span>REDISTRIBUTION REWARDS</span>
+                                </div>
+                            </div>
+                            <div class="single_counterup four">
+                              <div class="counterup_text">
+                                <h2 class="color4">2027</h2>
+                                  <span>LOCKED LIQUIDITY TILL YEAR</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<br>
+
+			<div class="container">
+			
+				
+							<script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+<coingecko-coin-ticker-widget  coin-id="safemoon-inu" currency="usd" locale="en" width="0" background-color="#16073a" ></coingecko-coin-ticker-widget>
+	
+							
+				
+		<div class="gam_additional_information d-flex justify-content-between align-items-center">
+ 
+
+		
+
+                                    <div class="gam_additional_inner d-flex ">
+
+                                        <div class="additional_information_text">
+											<div>
+                                            <h4>NAME:</h4>
+                                            <span>SafeMoon Inu</span>
+												<br>
+												<br>
+												<h4>SYMBOL:</h4>
+                                            <span>SMI</span>
+
+
+											</div>
+											
+                                       
+
+                                        </div>
+
+                                        <div class="additional_information_text">
+
+                                            <h4>TOKEN TYPE:</h4>
+
+                                            <span>ERC-20</span>
+											<br>
+											<br>
+											<h4>DECIMALS:</h4>
+
+                                            <span>08</span>
+
+
+                                      </div>
+
+                                        <div class="additional_information_text">
+
+                                            <h4>AUDITED:</h4>
+
+                                            <span><a href="https://safemooninu.com/pdf/techrate.pdf" target="_blank">Contract  audited by TechRate</a></span>
+											<br><br>
+
+											<h4>RUG PROOF:</h4>
+
+                                            <span><a href="https://app.unicrypt.network/amm/uni-v2/pair/0x2d27cae0c7e88De9b85b3E44ea37b9cb70cA745f" target="_blank">Liquidity locked for 6 years</a> and<br>
+ownership&nbsp; renounced.</span>
+											
+											
+											
+
+                                      </div>
+
+
+										 <div class="additional_information_text">
+
+                                            <h4>TOTAL SUPPLY:</h4>
+
+                                            <span>1,000,000,000,000 SMI</span>
+											 <br>
+											 <br>
+											  <h4>CIRCULATING SUPPLY:</h4>
+
+                                            <span>1,000,000,000,000 SMI</span>
+	
+											 
+
+											 
+
+                                        </div>
+
+                                    </div>
+						
+
+          </div>
+				
+				
+			
+		
+		</div>
+				
+		
+			
+			
+        </section>
+        <!-- counterup section end -->
+
+		<div class="container">
+			
+		
+		
+		</div>
+		
+		
+        <!-- Merchandise -->
+        <section class="popular_gaming_section mb-140">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                    <h2 id="merchandise">MERCHANDISE</h2>
+                </div>
+				
+				<div class="team_players_area">
+
+                                <div class="team_players_list">
+
+                                    <div class="team_players_title">
+
+                                        <span>Men's collection</span>
+
+
+                                    </div>
+
+                                    <div class="team_players_inner slick__activation" data-slick='{
+
+                                        "slidesToShow": 6,
+
+                                        "slidesToScroll": 3,
+
+                                        "arrows": false,
+
+                                        "dots": true,
+
+                                        "autoplay": true,
+
+                                        "speed": 300,
+
+                                        "infinite": true,  
+
+                                        "responsive":[  
+
+                                        {"breakpoint":1200, "settings": { "slidesToShow": 5 } } , 
+
+                                        {"breakpoint":992, "settings": { "slidesToShow": 4 } } , 
+
+                                        {"breakpoint":768, "settings": { "slidesToShow": 3 } } , 
+
+                                        {"breakpoint":576, "settings": { "slidesToShow": 2 } }  
+
+                                        ]                                                     
+
+                                    }'>
+
+<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(1).png" alt=""></a></div></div>
+										
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(2).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(3).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(4).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(5).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(6).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(7).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(8).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(9).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(10).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(11).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(12).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(13).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(14).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(15).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(16).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(17).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(18).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(19).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(20).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(21).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(22).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(23).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(24).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(25).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(26).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(27).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(28).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/m/mens(29).png" alt=""></a></div></div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="team_players_list">
+
+                                    <div class="team_players_title">
+
+                                        <span>Women's collection</span>
+
+
+                                    </div>
+
+                                    <div class="team_players_inner slick__activation" data-slick='{
+
+                                        "slidesToShow": 6,
+
+                                        "slidesToScroll": 3,
+
+                                        "arrows": false,
+
+                                        "dots": true,
+
+                                        "autoplay": true,
+
+                                        "speed": 300,
+
+                                        "infinite": true,  
+
+                                        "responsive":[  
+
+                                        {"breakpoint":1200, "settings": { "slidesToShow": 5 } } , 
+
+                                        {"breakpoint":992, "settings": { "slidesToShow": 4 } } , 
+
+                                        {"breakpoint":768, "settings": { "slidesToShow": 3 } } , 
+
+                                        {"breakpoint":576, "settings": { "slidesToShow": 2 } }   
+
+                                        ]                                                     
+
+                                    }'>
+
+										
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(1).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(2).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(3).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(4).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(5).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(6).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(7).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(8).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(9).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(10).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(11).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(12).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(13).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(14).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(15).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(16).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(17).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(18).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(19).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(20).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(21).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(22).png" alt=""></a></div></div>
+										<div class="single_players"> <div class="players_thumb"><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank"><img src="assets/img/others/merch/w/womens(23).png" alt=""></a></div></div>
+										
+                                       
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+            </div>
+        </section>
+        <!-- Merchandise section end -->
+
+
+
+	
+	  <!-- Twitter -->
+        <section class="popular_gaming_section mb-140">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                    <h2>TWITTER</h2>
+                </div>
+				
+				<div class="team_players_area">
+							
+							<div align="center">
+
+                           <a class="twitter-timeline" data-width="1000" data-height="600" data-theme="dark" href="https://twitter.com/SafeMoonInu?ref_src=twsrc%5Etfw">Tweets by SafeMoonInu</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								
+								</div>
+
+                            </div>
+            </div>
+        </section>
+        <!-- Twitter section end -->
+
+	
+			        <!-- SMI ANGELS -->
+        <section class="popular_gaming_section mb-140">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                    <h2 id="smi_angels">SMI ANGELS</h2>
+                </div>
+				
+				<div class="team_players_area">
+              
+
+                                <div class="team_players_list">
+
+                                    <div class="team_players_title">
+
+                                    </div>
+
+                                    <div class="team_players_inner slick__activation" data-slick='{
+
+                                        "slidesToShow": 4,
+
+                                        "slidesToScroll": 1,
+
+                                        "arrows": false,
+
+                                        "dots": false,
+
+                                        "autoplay": true,
+
+                                        "speed": 30,
+
+                                        "infinite": true ,  
+
+                                        "responsive":[  
+
+                                        {"breakpoint":1200, "settings": { "slidesToShow": 3 } } , 
+
+                                        {"breakpoint":992, "settings": { "slidesToShow": 3 } } , 
+
+                                        {"breakpoint":768, "settings": { "slidesToShow": 2 } } , 
+
+                                        {"breakpoint":576, "settings": { "slidesToShow": 1 } }   
+
+                                        ]                                                     
+
+                                    }'>
+
+										
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_01.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_02.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_03.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_04.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_05.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_06.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_07.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_08.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_09.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_10.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_11.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_12.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_13.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_14.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_15.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_16.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_17.png" alt=""></div></div>
+										<div class="single_players"> <div class="players_thumb"><img src="assets/img/others/angels/SMI_Angel_18.png" alt=""></div></div>
+										
+					
+																		                                       
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+				
+				
+            </div>
+        </section>
+        <!-- NFTs section end -->
+	
+	
+	
+	        <!-- How to buy  section start -->
+        <section class="gaming_world_section mb-140">
+            <div class="container">
+                <div class="section_title text-center wow fadeInUp mb-60" data-wow-delay="0.1s" data-wow-duration="1.1s">
+					<h2 id="how_to_buy">HOW TO BUY</h2>
+                  </div>
+               
+				  <div class="faq_page_inner">
+
+                    <div class="accordion" id="accordionExample">
+
+                        <div class="faq_question_list">
+
+                            <h3 class="questions__title accordion-header" id="headingfive">
+
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+								  
+                               <img src="assets/img/others/how_to_buy/1.png" width="75" height="75"  alt="">STEP 1: OPEN YOUR WALLET APP
+  								
+								</button>
+
+                            </h3>
+
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+
+                                <div class="frequently_desc accordion-body">
+
+                                <p>
+									 Don't have a wallet app? Download the MetaMask extension or get the app for iPphone & Android.</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+						
+						
+						
+						
+						
+						
+						
+						 <div class="faq_question_list">
+
+                          <h3 class="questions__title accordion-header" id="headingTwo">
+
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                               <img src="assets/img/others/how_to_buy/2.png" width="75" height="75" alt="">STEP 2: ADD $ETH TO YOUR WALLET
+
+                          </button>
+
+                          </h3>
+
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+
+                            <div class="frequently_desc accordion-body">
+                                <p>
+									 Transfer $ETH from an exchange or purchase $ETH directly within your wallet using any of the supported payment options (e.g. Credit card, bank transfer, PayPal, Apple Pay).</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+						
+						
+						
+						
+						
+						<div class="faq_question_list">
+
+                            <h3 class="questions__title accordion-header" id="headingthree">
+
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+
+                               <img src="assets/img/others/how_to_buy/3.png" width="75" height="75" alt="">STEP 3: CONNECT TO UNISWAP
+
+                            </button>
+
+                        
+                            </h3>
+
+                            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+
+                                <div class="frequently_desc accordion-body">
+								<p>
+									 Head over to Uniswap and connect your wallet by cliking "Connect Wallet". Get ready to sign when asked for signature.</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+						
+						
+						<div class="faq_question_list">
+
+                            <h3 class="questions__title accordion-header" id="headingfour">
+
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+
+                               <img src="assets/img/others/how_to_buy/4.png" width="75" height="75" alt="">STEP 4: SWAP $ETH FOR $SMI
+
+                            </button>
+
+                            </h3>
+
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+
+                                <div class="frequently_desc accordion-body">
+
+                                <p>
+									 Set the slippage tolerance to 3%-5%. Enter the amount of $ETH (or any other ERC20 token) you would like to swap and make sure to keep enough $ETH in your wallet for gas fee! Lastly, HODL!</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+				
+            </div>
+        </section>
+        <!-- how to buy section end -->
+	
+	
+	
+	
+	        <!-- Donate section start -->
+
+        <section class="about_section">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6" align="center">
+
+                        <div class="about_thumb wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+
+                           <a href="https://etherscan.io/address/0x3F5a50248B97783bBe3eb4c5dBc13E8dc8d74C1F" target="_blank"> <img src="assets/img/others/how_to_buy/qr-community-wallet.png" width="300px" alt=""></a>
+
+                            <div class="about_video_btn">
+
+                                
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="about_sidebar wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
+
+                            <div class="about_title">
+
+                                <h5>DONATE TO SAFEMOON INU</h5>
+
+                                <h3>SAFEMOON INU DESERVES AS MUCH VISIBILITY AS POSSIBLE.</h3>
+
+                            </div>
+
+                            <div class="about_desc">
+
+                                <p><br>
+That is why we created the Multi-Sig Community Marketing Wallet. Please donate to the Address below to help the project:<br>
+<br>
+
+<a href="https://etherscan.io/address/0x3F5a50248B97783bBe3eb4c5dBc13E8dc8d74C1F" target="_blank">0x3F5a50248B97783bBe3eb4c5dBc13E8dc8d74C1F</a><br>
+<br>
+
+
+Accepted: any ERC20 token
+Preferred: $SMI or $ETH
+									
+									
+									
+									</p>
+
+                            </div>
+
+                           
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- donate section end -->
+	
+	
+	
+	
+	
+		
+
+    </div>
+    <!-- page wrapper end -->
+
+    <!--footer area start-->
+    <footer class="footer_widgets">
+        <div class="main_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main_footer_inner d-flex">
+                            <div class="footer_widget_list">
+                                <div class="footer_logo">
+                                    <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                                <div class="footer_contact_desc">
+                                    <p>Don't gamble on pumps; come build a rocket!</p>
+									<p id="contact">Email: <a href="mailto: info@safemooninu.io">info@safemooninu.io</a></p>
+                                </div>
+                                <div class="footer_social">
+                                    <ul class="d-flex">
+                                        <li><a class="telegram" href="https://t.me/safemooninu" target="_blank"><i class="icofont-telegram"></i></a></li>
+                                        <li><a class="instagram" href="https://www.instagram.com/safemoon_inu" target="_blank"><i class="icofont-instagram"></i></a></li>
+										<li><a class="reddit" href="https://www.reddit.com/r/SafemoonInu" target="_blank"><i class="icofont-reddit"></i></a></li>
+                                        <li><a class="youtube" href="https://www.youtube.com/channel/UCXjZjH7FVhlhNpYQn2fi6wA" target="_blank"><i class="icofont-youtube-play"></i></a></li>
+                                        <li><a class="twitter" href="https://twitter.com/SafeMoonInu" target="_blank"><i class="icofont-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_widget_list footer_list_menu">
+                                <h3>VISIBILITY</h3>
+                                <div class="footer_menu">
+                                    <ul>
+										
+										<li><a href="https://www.coinbase.com/price/safemoon-inu" target="_blank">Coinbase</a></li>
+										
+                                        <li><a href="https://coinmarketcap.com/currencies/safemoon-inu" target="_blank">CoinMarketCap</a></li>
+										
+										<li><a href="https://crypto.com/price/safemoon-inu" target="_blank">Crypto.com</a></li>
+										
+                                        <li><a href="https://www.dextools.io/app/ether/pair-explorer/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f" target="_blank">Dextools</a></li>
+										
+                                        <li><a href="https://app.moontools.io/pairs/uniswap/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f" target="_blank">Moontools</a></li>
+										
+                                        <li><a href="https://fomoapp.io/gems/uniswap/0x2d27cae0c7e88de9b85b3e44ea37b9cb70ca745f" target="_blank">FomoApp</a></li>
+										
+                                        <li><a href="https://stocktwits.com/symbol/SMI.X" target="_blank">StockTwits</a></li>
+										
+										
+                                        <li><a href="https://www.worldcoinindex.com/coin/safemoon-inu" target="_blank">WorldCoinIndex</a></li>
+										
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_widget_list footer_list_menu">
+                                <h3>SOCIALS</h3>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="https://discord.com/invite/aqZ7PUDv5j" target="_blank">Discord</a></li>
+										
+										<li><a href="https://www.facebook.com/SafemoonInu" target="_blank">Facebook</a></li>
+										
+										<li><a href="https://github.com/Safemoon-Inu-Token" target="_blank">Github</a></li>
+										
+										<li><a href="https://www.instagram.com/safemoon_inu" target="_blank">Instagram</a></li>
+										
+										<li><a href="https://www.reddit.com/r/safemooninu" target="_blank">Reddit</a></li>
+										
+																				
+										<li><a href="https://t.me/safemooninu" target="_blank">Telegram</a></li>
+										
+										<li><a href="https://twitter.com/SafemoonInu" target="_blank">Twitter</a></li>
+										
+										<li><a href="https://www.youtube.com/channel/UCXjZjH7FVhlhNpYQn2fi6wA" target="_blank">Youtube</a></li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_widget_list footer_list_menu">
+                                <h3>VARIOUS</h3>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="https://etherscan.io/token/0xcd7492db29e2ab436e819b249452ee1bbdf52214" target="_blank">Etherscan</a></li>
+										
+										<li><a href="https://www.thebullacademy.com/safemoon-inu" target="_blank">Merchandise Shop</a></li>
+										
+										<li><a href="https://enjinx.io/eth/marketplace" target="_blank">NFT Marketplace</a></li>
+										
+										<li><a href="https://play.safemooninu.io" target="_blank">SMI Play</a></li>
+										
+										<li><a href="assets/pdf/techrate.pdf" target="_blank">TechRate Audit</a></li>
+										
+										<li><a href="https://app.unicrypt.network/amm/uni-v2/pair/0x2d27cae0c7e88De9b85b3E44ea37b9cb70cA745f" target="_blank">Unicrypt Locker</a></li>
+										
+										<li><a href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7492db29e2ab436e819b249452ee1bbdf52214&use=V2" target="_blank">Uniswap</a></li>
+										
+										<li><a href="assets/pdf/whitepaper.pdf" target="_blank">Whitepaper</a></li>
+										
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer_bottom_inner d-flex justify-content-between">
+                            <div class="copyright_right">
+                                <p><strong>SafeMoon Inu</strong> © 2021. All rights reserved.</p>
+                            </div>
+							<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+                            <div class="copyright_right">
+                              
+								
+									
+									
+								<div class="popup" onclick="myFunction()"><p><strong>Disclaimer</strong></p>
+  <div class="popuptext" id="myPopup">
+	  
+	  
+	  <strong>Disclaimer:</strong> The content of this website is provided for information purposes only and shall not in any way constitute an investment advice or investment recommendation in any product discussed. Buy at your own risk. It is strongly recommended that you seek professional investment advice before making any investment decision. Any investment decision that you make should be based on an assessment of your risks in consultation with your investment adviser. ☒
+	  
+	  </div>
+</div>
+							
+                            </div>
+
+                            <div class="scroll__top_icon">
+                                <a id="scroll-top" href="#"><img src="assets/img/icon/scroll-top.webp" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer area end-->
+
+   
+<!-- JS
+============================================ -->
+<!--modernizr min js here-->
+<script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+<!-- Vendor JS -->
+<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<script src="assets/js/vendor/popper.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jquery.nice-select.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/jquery-waypoints.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+
+</body>
+
 </html>
