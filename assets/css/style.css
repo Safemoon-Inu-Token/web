@@ -1580,6 +1580,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+	/*hoogte*/
   height: 940px;
   position: relative;
 }
@@ -1595,17 +1596,17 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero_banner_section {
-    height: 670px;
+    height: 900px;
   }
 }
 @media only screen and (max-width: 767px) {
   .hero_banner_section {
-    height: 600px;
+    height: 680px;
   }
 }
 @media only screen and (max-width: 575px) {
   .hero_banner_section {
-    height: 570px;
+    height: 720px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1716,25 +1717,28 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero_content h1 {
-    margin-bottom: 0px;
+	   /* real */
+    margin-top: -230px;
     font-size: 75px;
     line-height: 78px;
   }
 }
 @media only screen and (max-width: 767px) {
   .hero_content h1 {
-    margin-bottom: 0px;
+	   margin-top: -100px;
     font-size: 52px;
     line-height: 55px;
   }
 }
 @media only screen and (max-width: 575px) {
   .hero_content h1 {
-    margin-bottom: 0px;
-    font-size: 40px;
-    line-height: 40px;
+    margin-top: -180px;
+    font-size: 36px;
+    line-height: 36px;
   }
 }
+
+
 .hero_content h2 {
   font-size: 25px;
   font-weight: 700;
@@ -1761,7 +1765,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 @media only screen and (max-width: 575px) {
   .hero_content h2 {
     font-size: 20px;
-    margin-bottom: 300px;
+    margin-top: 0px;
   }
 }
 
@@ -1931,6 +1935,59 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
        object-fit: cover;
   }
 }
+
+
+
+/* header youtube video thumb */
+
+.video_in_header {
+  margin-bottom: 10px;
+	position: absolute;
+}
+
+@media only screen and (min-width: 1601px) {
+  .video_in_header {
+margin-top: -200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .video_in_header {
+	    margin-top: -200px;
+
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .video_in_header {
+     /*real*/
+   margin-top: -200px;
+
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video_in_header {
+	 
+   margin-top: -250px;
+
+  }
+}
+@media only screen and (max-width: 767px) {
+  .video_in_header {
+   
+	  margin-top: -80px;
+  
+
+  }
+}
+@media only screen and (max-width: 575px) {
+  .video_in_header {
+	  margin-top: -80px;
+	
+  
+  }
+}
+
+
 
 .gaming_video_paly_icon {
   position: absolute;
